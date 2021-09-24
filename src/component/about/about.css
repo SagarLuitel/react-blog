@@ -1,0 +1,10 @@
+.about-container {
+  width: 600px;
+  text-align: justify;
+}
+
+.about {
+  margin: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+}

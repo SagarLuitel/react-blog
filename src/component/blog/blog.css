@@ -1,0 +1,18 @@
+.blog {
+  display: flex;
+  width: 260px;
+  height: 260px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border: 2px solid rgb(185, 181, 181);
+}
+
+img {
+  width: 260px;
+  height: 260px;
+}
+
+.wrapper:hover {
+  width: 270px;
+  height: 270px;
+}

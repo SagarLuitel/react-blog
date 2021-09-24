@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: "Roboto Slab", serif;
+  background-color: #f5f5f5;
+  overflow: visible;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* For navbar component */
+.navbar {
+  color: rgb(10, 1, 1);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left span {
+  margin-right: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right span {
+  margin-left: 40px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* Featured Post */
+.featuredPost img {
+  height: 60vh;
+  width: 50vw;
+}
+
+.featuredPost {
+  justify-content: center;
+  width: 50vw;
+}
+
+.featuredPost h6 {
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.featuredPostContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Upcoming Posts */
+.upcomingContainer {
+  align-self: center;
+}
+
+/* Subscription */
+.subscriptionContainer {
+  background-color: #e4eee0;
+  border: 1px solid rgb(7, 6, 6);
+  border-radius: 5px;
+}
+
+.subscriptionform,
+.subscriptionform input {
+  width: 100%;
+  display: block;
+  background-color: #e4eee0;
+  margin: 10px 0;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+.subscriptionContainer > p,
+.subscriptionContainer > h6 {
+  background-color: #e4eee0;
+  padding: 0 5px;
+}
+
+.subscriptionContainer input[type="submit"]:hover {
+  opacity: 0.7;
+  background-color: #04aa6d;
+}
+
+/* Categories styling */
+.categoriesContainer {
+  height: 5px;
+  margin-left: 40px;
+  padding-left: 35px;
+  margin-bottom: 2rem;
 }

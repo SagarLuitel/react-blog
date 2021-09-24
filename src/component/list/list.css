@@ -1,0 +1,14 @@
+/* List container */
+.listContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.list-icon {
+  opacity: 0.5;
+}
+
+.list-icon:hover {
+  color: rgb(134, 48, 48);
+}
